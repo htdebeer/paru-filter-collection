@@ -42,3 +42,27 @@ Inserts source code files in a code block in a pandoc markdown file.
     ~~~{.ruby}
     ::paru::code path/to/source/code/file.rb
     ~~~
+
+## paru-screenshot.rb
+
+Automatically insert screenshot of a web page.
+
+### Example
+
+    - take a simple screenshot from a website on the internet
+
+      ![This is my homepage](img/home_page.png "::paru::screenshot https://heerdebeer.org"){height=200px}
+
+      Use the title text for the ::paru::screenshot command; if you want a title
+      as well, everything after the url is treated as the title.
+
+      Do make sure that the path to the directory wherein the screenshot is placed
+      does exist. In this case, there should an `img` sub directory in the current
+      directory.
+
+    - take screenshot from a local page
+
+      ![Load and capture the "a page.html" in this directory](img/apage.png "::paru::screenshot a%20page.html loading a simple page with a title"){width=50%}
+
+    - inline images work too: ![caption does not show when an image is inline](img/apage.png "::paru::screenshot a%20page.html"){width=200px}
+
