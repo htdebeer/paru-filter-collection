@@ -68,3 +68,7 @@ Automatically take screenshot of a web page and insert in a markdown file.
 
     - inline images work too: ![caption does not show when an image is inline](img/apage.png "::paru::screenshot a%20page.html"){width=200px}
 
+### Requirements
+
+This filters uses [Watir](http://watir.github.io/) to take screenshots. You
+also need to install an appropriate web driver.
