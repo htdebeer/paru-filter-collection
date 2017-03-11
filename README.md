@@ -8,6 +8,8 @@ A collection of [pandoc](http://pandoc.org/) filters written in
 
 - [paru-insert.rb](#paru-insertrb), inserting other pandoc markdown files
 - [paru-code.rb](#paru-code.rb), inserting source code files in a code block
+- [paru-screenshot.rb](#paru-screenshot.rb), automatically take
+  screenshot of a web page and insert in markdown file
 
 ## paru-insert.rb
 
@@ -45,7 +47,7 @@ Inserts source code files in a code block in a pandoc markdown file.
 
 ## paru-screenshot.rb
 
-Automatically insert screenshot of a web page.
+Automatically take screenshot of a web page and insert in a markdown file.
 
 ### Example
 
