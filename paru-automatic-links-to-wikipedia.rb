@@ -14,8 +14,8 @@
 # You should have received a copy of the GNU General Public License along with
 # this program.  If not, see <http://www.gnu.org/licenses/>.
 
-# Replace all links like [link][wiki::Link] by
-# [link][https://en.wikipedia.org/wiki/Link]
+# Replace all links like [link](wiki::Link) by
+# [link](https://en.wikipedia.org/wiki/Link)
 
 require "paru/filter"
 
